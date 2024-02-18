@@ -36,8 +36,6 @@ def main():
     print("Polling...")
     app.run_polling(poll_interval=3)
     
-if __name__ == '__main__':
-    main()
 
 
 LOGGER = get_logger(__name__)
@@ -73,4 +71,5 @@ def run():
 
 
 if __name__ == "__main__":
+    main()
     run()
